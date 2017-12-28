@@ -18,9 +18,8 @@ layout: default
 ```
 
 ### Response
-
-Session 为有效
 ```
+Session 为有效
     Status: 200
    {"message":"session is vaild!"}
 ```
