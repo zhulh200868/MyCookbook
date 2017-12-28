@@ -13,8 +13,8 @@ layout: default
 * step: 汇报周期（秒为单位）
 
 ### Request
-
-```{
+```
+{
   "tags": "",
   "step": 60,
   "numerator": "$(cpu.idle)",
@@ -22,12 +22,13 @@ layout: default
   "hostgroup_id": 343,
   "endpoint": "testenp",
   "denominator": "2"
-}```
+}
+```
 
 ### Response
-
-```Status: 200```
-```{
+```
+Status: 200
+  {
   "id": 16,
   "grp_id": 343,
   "numerator": "$(cpu.idle)",
@@ -38,4 +39,5 @@ layout: default
   "ds_type": "GAUGE",
   "step": 60,
   "creator": "root"
-}```
+}
+```
